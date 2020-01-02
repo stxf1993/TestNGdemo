@@ -1,0 +1,5 @@
+name,pwd,exp
+stxf,123456,LoginSuccess
+admin,admin,LoginSuccesAdmin
+zhangsan,123456,LoginnameOrPasswordIsError
+admin,,用户名或密码不能为空

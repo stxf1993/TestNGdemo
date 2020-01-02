@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [suitname]">
+  <test thread-count="5" name="D:\IDEA\Workspace\com.TestNG(failed)">
+    <classes>
+      <class name="TestDemo.LoginTest">
+        <methods>
+          <include name="testLogin" invocation-numbers="5"/>
+        </methods>
+      </class> <!-- TestDemo.LoginTest -->
+    </classes>
+  </test> <!-- D:\IDEA\Workspace\com.TestNG(failed) -->
+</suite> <!-- Failed suite [suitname] -->

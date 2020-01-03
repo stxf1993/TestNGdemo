@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!--
 <suite name="suitname">
     <test name="D:\IDEA\Workspace\com.TestNG">
 
@@ -11,5 +12,19 @@
                      </class>
                  </classes>
 
+    </test>
+</suite>-->
+<suite name="TestGroupSuite">
+    <test name="Group测试集">
+        <groups>
+            <run>
+                <include name="group1"/>
+         <!--       <include name="group2"/>-->
+            </run>
+        </groups>
+        <classes>
+            <class name="TestDemo.GroupTest1" />
+            <class name="TestDemo.GroupTest2"/>
+        </classes>
     </test>
 </suite>

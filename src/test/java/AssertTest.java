@@ -5,6 +5,12 @@ import org.testng.annotations.Test;
  * Created by xiaofenShentu on 2020/1/3 18:53
  */
 public class AssertTest {
+
+   /* @BeforeClass
+    void beforetest(){
+        Assert.fail();
+    }
+    */
     @Test
     void test1(){
         Assert.assertTrue(true);

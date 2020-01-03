@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [suitname]">
-  <test thread-count="5" name="D:\IDEA\Workspace\com.TestNG(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]">
+  <listeners>
+    <listener class-name="ListenerDemo.MyTestListener"/>
+  </listeners>
+  <test thread-count="5" name="TestListner(failed)">
     <classes>
-      <class name="TestDemo.LoginTest">
+      <class name="ListenerDemo.TestCase">
         <methods>
-          <include name="testLogin" invocation-numbers="5"/>
+          <include name="Test2"/>
+          <include name="Test3"/>
+          <include name="Test4"/>
         </methods>
-      </class> <!-- TestDemo.LoginTest -->
+      </class> <!-- ListenerDemo.TestCase -->
     </classes>
-  </test> <!-- D:\IDEA\Workspace\com.TestNG(failed) -->
-</suite> <!-- Failed suite [suitname] -->
+  </test> <!-- TestListner(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="suitename">
+    <listeners>
+        <listener class-name="retryAnalyzerTest2.overrideTransformer">
+    </listener>
+    </listeners>
+    <test name="测试重跑">
+        <classes><class name="retryAnalyzerTest2.testcase"></class></classes>
+        
+    </test>
+</suite>
+    

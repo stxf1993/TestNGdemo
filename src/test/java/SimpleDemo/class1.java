@@ -7,12 +7,12 @@ import org.testng.annotations.Test;
  */
 public class class1 {
     @Test
-    void case1(){
+    public void case1(){
         System.out.println("CASE1");
     }
 
     @Test
-    void case2(){
+    public void case2(){
         System.out.println("CASE2");
     }
 }

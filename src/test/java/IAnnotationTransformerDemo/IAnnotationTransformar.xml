@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="注解转换器测试">
+     <listeners>
+         <listener class-name="IAnnotationTransformerDemo.IAnnotationTransformerTest"></listener>
+     </listeners>
+            <test name="test">
+                <classes>
+                    <class name="SimpleDemo.class1">
+                    </class>
+                </classes>
+            </test>
+        </suite>
+
+

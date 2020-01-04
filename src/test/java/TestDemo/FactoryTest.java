@@ -10,7 +10,10 @@ import org.testng.annotations.Test;
 public class FactoryTest {
     @Factory
     public  Object[] FactoryTest1(){
-        return new Object[]{new Test1(1),new Test1(2)};
+        
+        return new Object[]{
+                new Test1(1),new Test1(2)
+        };
     }
 }
 
@@ -29,4 +32,7 @@ public class FactoryTest {
         }
     }
 
+
 }
+
+

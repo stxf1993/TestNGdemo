@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite">
+
+  <!-- 加上group-by-instances，Factery中两个实例是一个运行完再运行另一个
+  可以添加在<suite>标签也可以在<test>标签-->
+    <test verbose="2" preserve-order="true" name="D:/IDEA/Workspace/com.TestNG/src/test/java/TestDemo"
+          group-by-instances="true">
+        <classes>
+            <class name="TestDemo.FactoryTest2">
+
+            </class>
+        </classes>
+    </test>
+</suite>

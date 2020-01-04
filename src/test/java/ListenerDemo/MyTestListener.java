@@ -10,6 +10,10 @@ import org.testng.Reporter;
  * ITestListener  测试运行的监听器。
  * 实现ITestListener接口的类在加入TestNG后，
  * 会在用例执行期间，测试类加载后，每个测试方法@Test之前前后调用执行。
+ *但在实际应用过程中，我们一般使用TestListenerAdapter，
+ * 因为ITestListner中的方法在TestListenerAdapter中给了默认实现，
+ * 我们只需继承 TestListenerAdapter，重写自己感兴趣的方法即可
+ *
  */
 public class MyTestListener implements ITestListener {
     //用例执行成功后调用

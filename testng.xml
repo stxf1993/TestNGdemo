@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="D:/IDEA/Workspace/com.TestNG/src/test/java/retryAnalyzerTest">
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <!--路径：/表示根目录，省略/表示当前目录-->
+   <suite-files>
+       <suite-file path="/src/test/java/TestDemo/testng_testdemo.xml"></suite-file>
+       <suite-file path="/src/test/java/TestDemo/testng_testdemo.xml"></suite-file>
+      <suite-file path="src/test/java/retryAnalyzerTest2/retryAnalyzerTest2.xml"></suite-file>
+   </suite-files>
+
+    <!-- <test verbose="2" preserve-order="true" name="D:/IDEA/Workspace/com.TestNG/src/test/java/retryAnalyzerTest">
         <classes>
             <class name="retryAnalyzerTest.caseTest">
 
             </class>
         </classes>
-    </test>
+    </test>-->
 </suite>
